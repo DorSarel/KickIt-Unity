@@ -9,6 +9,9 @@ public class PlayerMenuInteract : MonoBehaviour
     private int _layerMask;
     void Start()
     {
+        // Setting target frame rate
+        Application.targetFrameRate = 60;
+
         _layerMask = 1 << 8;
         _layerMask = ~_layerMask;
     }
