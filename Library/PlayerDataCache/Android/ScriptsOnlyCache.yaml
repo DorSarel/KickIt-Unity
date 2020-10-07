@@ -23,7 +23,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -113,7 +112,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11754}
     - Class: 114
-      Script: {instanceID: 15246}
+      Script: {instanceID: 15148}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
